@@ -10,7 +10,9 @@ If you need help, please refer to the [wiki](https://github.com/yannickkirschen/
 ## :floppy_disk: Installation
 
 ```bash
-pip install extension
+git clone -b feature/add_functions_from_openwiki https://github.com/yannickkirschen/extension
+cd extension
+python3.x setup.py install
 ```
 
 ## :car: Contributing
