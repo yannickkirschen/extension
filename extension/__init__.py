@@ -530,7 +530,7 @@ def _ttl_master(ttl):
     _log.info('Deleted cache.')
 
 
-class Logger(metaclass=Singleton):
+class Logger:
     """
     Implements a simple logger that can print to the terminal or write into a file.
     """
