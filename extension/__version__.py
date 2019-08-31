@@ -5,4 +5,4 @@
 # Date created: July 21, 2019
 
 
-__version__ = '0.0.0'
+__version__ = '1.0.0'
