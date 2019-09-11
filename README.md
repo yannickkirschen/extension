@@ -3,7 +3,7 @@
 ## :information_source: Overview
 
 *Extension* is a collection of useful functions for the Python programming language. 
-It is available to everyone under the [GNU General Public License v3.0](https://github.com/yannickkirschen/extension/blob/master/LICENSE).
+It is available to everyone under the [MIT License](https://github.com/yannickkirschen/extension/blob/master/LICENSE).
 
 If you need help, please refer to the [wiki](https://github.com/yannickkirschen/extension/wiki).
 
@@ -33,5 +33,5 @@ Please also consider my notes about [branching](https://gist.github.com/yannickk
 ## :page_facing_up: License
 
 Copyright (c) 2019, Yannick Kirschen, All rights reserved.
-Licensed under the [GNU GPL3](https://github.com/yannickkirschen/extension/blob/master/LICENSE).
+Licensed under the [MIT License](https://github.com/yannickkirschen/extension/blob/master/LICENSE).
 Happy forking :fork_and_knife:
