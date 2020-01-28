@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48">
+  <defs>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#edd400"/>
+      <stop offset=".5" stop-color="#c3af07"/>
+      <stop offset="1" stop-color="#ffeb3e"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#555753"/>
+      <stop offset="1" stop-color="#3e3f3c"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#eeeeec"/>
+      <stop offset=".892" stop-color="#dededa"/>
+      <stop offset="1" stop-color="#838375"/>
+    </linearGradient>
+    <linearGradient id="h" x1="22.797" x2="22.797" y1="39.68" y2="46.636" gradientTransform="matrix(1 0 0 .934 0 1.558)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+    <linearGradient id="g" x1="29.375" x2="22.102" y1="21.741" y2="7.679" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+    <linearGradient id="f" x1="21.617" x2="26.444" y1="4.608" y2="47.007" gradientTransform="matrix(1 0 0 .98252 0 -.07)" gradientUnits="userSpaceOnUse" xlink:href="#c"/>
+    <linearGradient id="i" x1="16.846" x2="30.508" y1="8.678" y2="78.505" gradientUnits="userSpaceOnUse" xlink:href="#d"/>
+    <filter id="e" width="1.138" height="2.241" x="-.069" y="-.621">
+      <feGaussianBlur stdDeviation="1.189"/>
+    </filter>
+  </defs>
+  <g color="#000">
+    <rect width="41.366" height="4.596" x="3.359" y="41.99" filter="url(#e)" opacity=".434" rx="2.379" ry="2.298" style="marker:none" transform="matrix(.96581 0 0 1 .822 0)"/>
+    <path id="j" fill="url(#f)" fill-rule="evenodd" stroke="#2e3436" stroke-dashoffset=".8" d="M 5.4999978,3.2368595 L 5.4999978,43.618858 C 5.569704,44.669066 6.4987349,45.72121 7.8834214,45.616246 L 39.735278,45.616246 C 40.628844,45.573136 41.513052,44.830044 41.499984,43.358328 L 41.499984,6.4283398 C 41.499984,5.7118028 41.268737,5.2304363 40.743728,4.7146061 C 40.743728,4.7146061 37.994733,1.8791213 37.994733,1.8791213 C 37.707471,1.6077368 37.530774,1.4999993 36.735279,1.4999993 L 6.7352914,1.4999993 C 5.7977914,1.5614066 5.4374978,2.4999722 5.4999978,3.2368595 z" style="marker:none"/>
+    <rect width="27.977" height="17" x="9.5" y="5.616" fill="#edd400" fill-rule="evenodd" stroke="#2e3436" stroke-dashoffset=".8" stroke-width="3" rx="1.897" ry="1.897" style="marker:none"/>
+    <rect width="27.977" height="17" x="9.5" y="5.616" fill="url(#g)" fill-rule="evenodd" stroke="#c4a000" stroke-dashoffset=".8" rx="1.897" ry="1.897" style="marker:none"/>
+    <rect width="26" height="15" x="10.578" y="6.616" fill="none" stroke="#fff" stroke-dashoffset=".8" opacity=".449" rx="1.146" ry="1.146" style="marker:none" transform="skewX(-.317) scale(1 .99999)"/>
+    <path fill="#fff" fill-rule="evenodd" d="M 12,6.116117 L 12,12.11612 C 19.204912,9.2558473 27.058025,16.094119 35,14.11612 L 35,6.1880393 L 36,6.1880393 L 36,22.11612 L 35,22.11612 L 35,16.11612 C 26.337016,18.056862 19.445696,11.070476 12,14.11612 L 12,22.11612 L 11,22.11612 L 11,6.116117 L 12,6.116117 z" opacity=".449" style="marker:none"/>
+    <path fill="#fff" fill-rule="evenodd" d="M13 6.116117L13 10.850955 14 10.611733 14 6.116117 13 6.116117zM15 10.611732L15 6.116117 16 6.116117 16 10.523344 15 10.611732zM17 10.523344L17 6.116117 18 6.116117 18 10.674178 17 10.523344zM19 10.895149L19 6.116117 20 6.116117 20 11.11612 19 10.895149zM21 11.274645L21 6.116117 22 6.116117 22 11.451422 21 11.274645zM23 11.804975L23 6.116117 24 6.116117 24 11.937558 23 11.804975zM25 12.335305L25 6.116117 26 6.116117 26 12.512082 25 12.335305zM27 12.733053L27 6.116117 28 6.116117 28 12.90983 27 12.733053zM29 13.219189L29 6.116117 30 6.116117 30 13.307577 29 13.219189zM31 13.395965L31 6.116117 32 6.116117 32 13.395966 31 13.395965zM33 13.395965L33 6.116117 34 6.116117 34 13.263383 33 13.395965zM13 22.070139L13 14.639459 14 14.525128 14 22.070139 13 22.070139zM15 14.480935L15 22.070139 16 22.070139 16 14.348352 15 14.480935zM17 14.348352L17 22.070139 18 22.070139 18 14.462683 17 14.348352zM19 14.772042L19 22.070139 20 22.070139 20 14.993013 19 14.772042zM21 15.232235L21 22.070139 22 22.070139 22 15.4974 21 15.232235zM23 15.850954L23 22.070139 24 22.070139 24 16.204507 23 15.850954zM25 16.381284L25 22.070139 26 22.070139 26 16.646449 25 16.381284zM27 16.823226L27 22.070139 28 22.070139 28 17.000002 27 16.823226zM29 17.176779L29 22.070139 30 22.070139 30 17.220973 29 17.176779zM31 17.39775L31 22.070139 32 22.070139 32 17.265167 31 17.39775zM33 17.353556L33 22.070139 34 22.070139 34 17.176779 33 17.353556z" opacity=".449" style="marker:none"/>
+    <rect width="31" height="11" x="8" y="35.116" fill="#2e3436" fill-rule="evenodd" rx=".817" ry=".817" style="marker:none"/>
+    <rect width="29" height="9" x="9" y="36.116" fill="url(#h)" fill-rule="evenodd" rx=".13" ry=".13" style="marker:none"/>
+    <rect width="29" height="3" x="9" y="36.116" fill="#8f5902" fill-rule="evenodd" rx=".13" ry=".13" style="marker:none"/>
+    <rect width="10.036" height="2" x="11" y="37.116" fill="#e9b96e" fill-rule="evenodd" rx=".13" ry=".13" style="marker:none"/>
+    <rect width="4.036" height="2" x="22.964" y="37.116" fill="#e9b96e" fill-rule="evenodd" rx=".13" ry=".13" style="marker:none"/>
+    <path fill="none" stroke="url(#i)" stroke-dashoffset=".8" d="M 6.8125,2.5 C 6.6714126,2.5092414 6.665484,2.505736 6.59375,2.625 C 6.522016,2.744264 6.486054,2.9918242 6.5,3.15625 C 6.501465,3.1874828 6.501465,3.2187672 6.5,3.25 L 6.5,43.5625 C 6.5340897,44.076101 6.9647984,44.689259 7.8125,44.625 C 7.8333282,44.624349 7.8541718,44.624349 7.875,44.625 L 39.6875,44.625 C 40.042231,44.607886 40.509542,44.418409 40.5,43.34375 L 40.5,6.4375 C 40.499999,5.9303711 40.465181,5.8331404 40.0625,5.4375 C 40.051855,5.4273147 40.041435,5.4168955 40.03125,5.40625 C 40.03125,5.40625 37.37257,2.6558683 37.3125,2.59375 C 37.252809,2.537358 37.283219,2.5655737 37.28125,2.5625 C 37.279281,2.5594263 37.249931,2.5312266 37.25,2.53125 C 37.250138,2.5312967 37.104314,2.5 36.75,2.5 L 6.8125,2.5 z" opacity=".18" style="marker:none"/>
+  </g>
+</svg>
