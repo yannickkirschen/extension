@@ -10,9 +10,11 @@ import os
 import platform
 import random
 import shutil
+import subprocess
 import time
 import _thread
 import threading
+
 from os.path import abspath, dirname, isfile, join
 
 import flask
@@ -81,9 +83,9 @@ def clear():
     """
     p = platform.system()
     if p == 'Windows':
-        os.system('cls')
+        subprocess.call('cls', shell=False)
     elif p in ['Linux', 'Darwin']:
-        os.system('clear')
+        subprocess.call('clear', shell=False)
 
 
 def cur_dir(file):
