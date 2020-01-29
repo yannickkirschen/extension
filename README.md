@@ -1,6 +1,7 @@
 # Extension
 
 [![PyPI version](https://badge.fury.io/py/extension.svg)](https://badge.fury.io/py/extension)
+[![](https://api.dependabot.com/badges/status?host=github&repo=yannickkirschen/extension)](https://dependabot.com)
 
 ## Overview
 
