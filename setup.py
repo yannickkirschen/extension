@@ -13,11 +13,7 @@ from extension import __version__
 
 
 with open('README.md', 'r') as file:
-    long_description = file.read().replace(':.+: ', '')
-
-
-with open('requirements.txt', 'r') as file:
-    requirements = file.read().split('\n')
+    long_description = file.read()
 
 
 setup(
@@ -32,7 +28,10 @@ setup(
     package_data={
         'extension': ['emojis.json', 'resources/*.svg']
     },
-    install_requires=requirements,
+    install_requires=[
+        'flask>=1.0.2',
+        'markdown>=3.0.1'
+    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
