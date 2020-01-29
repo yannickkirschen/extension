@@ -187,7 +187,7 @@ class EmojiExtension(Extension):
         self.as_dictionary = lambda emojis: dict((emoji['key'], emoji['value']) for emoji in emojis)
         super(EmojiExtension, self).__init__(**kwargs)
 
-    def extendMarkdown(self, md, md_globals):
+    def extendMarkdown(self, md):
         emojis = self.as_dictionary(self.getConfig('emojis'))
         pattern = EmojiInlinePattern(EMOJI_RE, emojis)
         md.inlinePatterns.add('emoji', pattern, '<not_strong')
@@ -330,7 +330,7 @@ class CsvReader:
             True, if there is a next line, otherwise False.
         """
         self._line = self.file.readline().strip()
-        return not self._line == ''
+        return self._line != ''
 
     def pull(self):
         """
@@ -412,7 +412,7 @@ class TangoIcon:
         """
         self._image = image
 
-        if not static == '':
+        if static != '':
             self.make_static(static)
 
     def make_static(self, path):
@@ -544,7 +544,7 @@ class Logger:
 
         self.message_format = ' * {} - ({}) - {} - {}'
 
-        if not self.output == 'terminal':
+        if self.output != 'terminal':
             self.file = open(self.output, 'a')
 
     def __del__(self):
