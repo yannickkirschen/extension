@@ -1,5 +1,7 @@
 # Extension
 
+[![PyPI version](https://badge.fury.io/py/extension.svg)](https://badge.fury.io/py/extension)
+
 ## :information_source: Overview
 
 *Extension* is a collection of useful functions for the Python programming language. 
