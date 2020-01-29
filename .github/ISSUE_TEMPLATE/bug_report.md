@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help me improve Gazelle
+about: Create a report to help me improve Extension
 title: ''
 labels: ''
 assignees: ''
