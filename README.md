@@ -1,7 +1,6 @@
 # Extension
 
 [![PyPI version](https://badge.fury.io/py/extension.svg)](https://badge.fury.io/py/extension)
-[![](https://api.dependabot.com/badges/status?host=github&repo=yannickkirschen/extension)](https://dependabot.com)
 
 ## Overview
 
@@ -31,6 +30,5 @@ Please respect my [Code of Conduct](https://github.com/yannickkirschen/extension
 
 ## License
 
-Copyright (c) 2019-2020, Yannick Kirschen, All rights reserved.
 Licensed under the [MIT License](https://github.com/yannickkirschen/extension/blob/master/LICENSE).
 Happy forking :)
