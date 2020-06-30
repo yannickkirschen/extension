@@ -7,8 +7,6 @@
 *Extension* is a collection of useful functions for the Python programming language. 
 It is available to everyone under the [MIT License](https://github.com/yannickkirschen/extension/blob/master/LICENSE).
 
-If you need help, please refer to the [wiki](https://github.com/yannickkirschen/extension/wiki).
-
 ## Installation
 
 ```bash
